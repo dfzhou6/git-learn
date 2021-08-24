@@ -1,6 +1,6 @@
 # git-learn
 ### git reset
-git reset HEAD^ // 回滚到上一个提交(工作区)
+git reset commit-id // 由当前回滚到commit-id提交(工作区)，commit-id不会被回滚
  
 git reset --soft HEAD^ // 回滚到上一个提交(暂存区)
 
